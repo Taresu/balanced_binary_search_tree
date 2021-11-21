@@ -35,6 +35,10 @@ Arvore* inserir (Arvore *a, char chave);
 
 Arvore* remover (Arvore *a, char chave);
 
+void inverte_nos (Arvore *a, Arvore *tmp, int v);
+
+void arvore_libera (Arvore* a);
+
 void imprimir_in_order (Arvore* a, int nivel);
 
 #endif
